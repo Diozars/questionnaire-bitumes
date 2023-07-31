@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+fieldset {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+button {
+    background-color: rgb(10, 175, 4);
+    color: white;
+    font-size: 18px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  input[type="text1"] {
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+
+}
+textarea {
+    resize: vertical; /* Permet à l'utilisateur de redimensionner verticalement la zone de texte */
+    width: 80%; /* Largeur à 100% de son conteneur */
+    padding: 8px; /* Espacement intérieur pour un meilleur aspect */
+    font-size: 16px; /* Taille de la police */
+    border: 1px solid #111111; /* Bordure autour de la zone de texte */
+    border-radius: 4px; /* Bordure arrondie pour un aspect plus agréable */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+@media print {
+    .print-button {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+}
