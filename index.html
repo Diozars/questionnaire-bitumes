@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire de NAFTAL SPA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="./‎img/Logo_NAF.png" alt="Votre image"><br>Direction Bitumes
+        <h1>Votre satisfaction est notre priorité !<br>NAFTAL SPA</h1>
+        <form id="questionnaireForm" method="post" action="merci.html">    
+            <fieldset>
+                <legend>Informations générales</legend>
+                <label for="natureEntreprise">Qui êtes-vous:</label><br>
+                <input type="checkbox" name="secteurActivite" value="travauxPublics"> Le propriétaire<br>
+                <input type="checkbox" name="secteurActivite" value="travauxPublics"> Le gérant<br>
+                <input type="checkbox" name="secteurActivite" value="sousTraitance"> Responsable commercial<br>
+                <input type="checkbox" name="secteurActivite" value="autre"> Autre (Veuillez préciser) <input type="text"
+                    name="autreSecteurActivite"><br>
+
+                <br>
+
+                <label>Vous représentez l'entreprise :</label>
+                <label for="Entreprise"></label>
+                 <input type="text" name="autreperson">  <br>
+
+                <br>
+                <label for="natureEntreprise">Quelle est le statut juridique de votre entreprise :</label><br>
+                <input type="radio" name="natureEntreprise" value="etatique"> Étatique<br>
+                <input type="radio" name="natureEntreprise" value="privee"> Privée<br>
+
+                <br>
+
+                <label for="tempsEntreprise">Depuis combien de temps êtes-vous client de notre entreprise ?</label><br>
+                <input type="radio" name="tempsEntreprise" value="trois"> -3 ans<br>
+                <input type="radio" name="tempsEntreprise" value="plus_trois"> Entre 3ans et 5ans<br>
+                <input type="radio" name="tempsEntreprise" value="cinq"> Entre 5ans et 10ans<br>
+                <input type="radio" name="tempsEntreprise" value="dix"> +10ans<br>
+                <br>
+                <label for="paiement">Vous procédez au paiement :</label><br>
+                <input type="radio" name="paiement" value="etatique"> à terme<br>
+                <input type="radio" name="paiement" value="privee"> au comptant<br>
+
+                <br>
+                <label for="secteurActivite">Quel est le secteur d'activité de votre entreprise :</label><br>
+                <input type="checkbox" name="secteurActivite" value="travauxPublics"> Travaux publics<br>
+                <input type="checkbox" name="secteurActivite" value="sousTraitance"> Sous-traitance<br>
+                <input type="checkbox" name="secteurActivite" value="autre"> Autre (Veuillez préciser) <input type="text"
+                    name="autreSecteurActivite1"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Connaissances sur les produits</legend>
+                <label for="familiariteProduits">Êtes-vous familier avec nos différentes gammes de produits de
+                    bitumes ?</label><br>
+                <input type="radio" name="familiariteProduits" value="tresFamilier"> Oui, très familier<br>
+                <input type="radio" name="familiariteProduits" value="besoinInformations"> Oui, mais besoin de plus
+                d'informations<br>
+                <input type="radio" name="familiariteProduits" value="pasFamilier"> Non, pas du tout familier<br>
+
+                <br>
+
+                <label for="utilisationProduits">Avez-vous déjà utilisé nos produits de bitumes ?</label><br>
+                <input type="radio" name="utilisationProduits" value="regulierement"> Oui, régulièrement<br>
+                <input type="radio" name="utilisationProduits" value="occasionnellement"> Oui, occasionnellement<br>
+                <input type="radio" name="utilisationProduits" value="pasEncore"> Non, pas encore<br>
+
+                <br>
+
+                <label for="choixProduits">Quels sont les critères les plus importants pour vous lors de l'achat de nos bitumes ?</label><br>
+                <input type="radio" name="choixProduits" value="1"> 1 Qualité<br>
+                <input type="radio" name="choixProduits" value="2"> 2 Prix<br>
+                <input type="radio" name="choixProduits" value="3"> 3 Disponibilité<br>
+                <input type="radio" name="choixProduits" value="4"> 4 Service client<br>
+                <input type="radio" name="choixProduits" value="5"> 5 Transport<br>
+            </fieldset>
+            <fieldset>
+                <legend>Satisfaction et préférences des produits</legend>
+                <label for="gammePreferee">Quelle gamme de produits de bitumes préférez-vous le plus parmi notre sélection ?</label><br>
+                <select name="gammePreferee">
+                    <option value="gammeA">BITUMES PUR 40/50</option>
+                    <option value="gammeB">CUT-BACKS</option>
+                    <option value="gammeC">BMP</option>
+                    <option value="gammeD">EMULSIONS</option>
+                    <option value="autre">Autre (Veuillez préciser)</option>
+                </select>
+                <input type="text" name="autreGammePreferee2"><br>
+            
+                <br>
+            
+                <label for="satisfactionProduits">Sur une échelle de 1 à 4, à quel point êtes-vous satisfait de nos produits de bitumes en termes de qualité ?</label><br>
+                <input type="radio" name="satisfactionProduits" value="1"> 1 (Pas du tout satisfait)<br>
+                <input type="radio" name="satisfactionProduits" value="2"> 2 (Peu satisfait)<br>
+                <input type="radio" name="satisfactionProduits" value="4"> 3 (Satisfait)<br>
+                <input type="radio" name="satisfactionProduits" value="5"> 4 (Très satisfait)<br>
+
+            
+                <label for="satisfactionProduits1"></label><br> Êtes-vous satisfait de la qualité de la réception et de la rapidité du service ?</label><br>
+                <input type="radio" name="satisfactionProduits1" value="1"> 1 (Pas du tout satisfait)<br>
+                <input type="radio" name="satisfactionProduits1" value="2"> 2 (Peu satisfait)<br>
+                <input type="radio" name="satisfactionProduits1" value="4"> 3 (Satisfait)<br>
+                <input type="radio" name="satisfactionProduits1" value="5"> 4 (Très satisfait)<br>
+
+                <label for="TransportProduits1"></label><br> Comment trouvez-vous nos délais de livraison ?</label><br>
+                <input type="radio" name="TransportProduits1" value="1"> 1 (Trop Lent)<br>
+                <input type="radio" name="TransportProduits1" value="2"> 2 (Lent)<br>
+                <input type="radio" name="TransportProduits1" value="4"> 3 (Rapide)<br>
+                <input type="radio" name="TransportProduits1" value="5"> 4 (Excellent)<br>
+
+
+                <label for="qualiteProduits1"></label><br> Avez-vous déjà rencontré des problèmes de qualité ou de conformité avec nos produits ?</label><br>
+                <input type="radio" name="qualiteProduits1" value="1"> 1 Oui<br>
+                <input type="radio" name="qualiteProduits1" value="2"> 2 Non<br>
+
+
+                <br>
+                
+                <label for="satisfactionProduits2">Quelles sont vos attentes en matière de programme de fidélisation ?</label><br>
+                <input type="radio" name="satisfactionProduits2" value="1"> 1 Des remises sur le prix d'achats selon la quantité <br>
+                <input type="radio" name="satisfactionProduits2" value="2"> 2 Ristourne accordé en fin d'année selon la quantité enlevée pendant l'année précédente<br>
+                <input type="radio" name="satisfactionProduits2" value="3"> 3 Des invitations à des événements exclusifs<br>
+                <input type="radio" name="satisfactionProduits2" value="4"> 4 Des services gratuits (transport ...)<br>
+                <input type="radio"  name="satisfactionProduits2" value="autre"> 5 Autre (Veuillez préciser) <input type="text"
+                name="satisfactionProduits3"><br>
+
+                <br>
+
+                <Legend for="satisfactionProduits">Nous sommes ouverts à recevoir vos propositions, car votre avis nous intéresse ?</Legend><br>
+                <textarea id="propositions" name="propositions" rows="5"></textarea><br>
+            </fieldset>
+                <h5>*N'oubliez pas de cacher et signer le questionnaire, et de nous l'envoyer dans les plus brefs délais possibles.</h1>
+                <button class="print-button" onclick="window.print()">Imprimer le questionnaire</button>
+
+                <br>
+                
+                
+        </form>
+        <br>
+        
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; Copyrights 2023/2024 - Naftal spa</p>
+            <p>Département force de vente</p>
+            <p>Contact : (+213) 36 13 11</p>
+        </div>
+    </footer>
+</body>
+</html>
